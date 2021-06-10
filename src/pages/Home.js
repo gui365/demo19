@@ -1,22 +1,16 @@
-import React, { useEffect, useState } from "react";
-import API from "../api/API";
+import React from "react";
 
 function Home() {
-  const [facts, setFacts] = useState([{ fact: 'Loading...' }]);
-
-  useEffect(() => {
-    API.getCatFacts().then(catFacts => {
-      console.log(catFacts.data.data);
-      setFacts(catFacts.data.data);
-    });
-  }, [])
-
   return (
     <main>
-      <h2>Did you know?</h2>
-      {
-        <p>{facts[0].fact}</p>
-      }
+      <h2>Home Page</h2>
+      <p>
+        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
+        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
+        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
+        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
+        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      </p>
     </main>
   );
 }
