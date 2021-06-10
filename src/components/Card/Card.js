@@ -2,7 +2,6 @@ import React from "react";
 import './Card.css';
 
 function Card({ fact, index }) {
-
   return (
     <div className="card">
       <h3 className="card-title">Fact #{index}</h3>

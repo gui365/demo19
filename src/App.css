@@ -38,6 +38,10 @@ footer {
   border-radius: 5px;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 #cat-image {
   width: 40%;
   transform: rotate(2deg);

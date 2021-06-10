@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+  table-layout: auto;
+}
+
+td, th {
+  padding: 0 .4rem;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(230, 230, 230);
+}
+
+th {
+  background-color: rgb(112, 112, 112);
+  color: #fff;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
