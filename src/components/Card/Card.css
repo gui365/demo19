@@ -1,0 +1,27 @@
+section {
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 28%;
+  height: 20rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: 0 10px 10px rgba(58, 58, 58, .1);
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-family: 'Mate SC';
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 100%;
+  }
+}

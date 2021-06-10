@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import API from "../api/API";
+import Card from "../components/Card/Card";
 
 function Facts() {
   const [facts, setFacts] = useState([{ fact: 'Loading...' }]);
@@ -14,9 +15,11 @@ function Facts() {
   return (
     <main>
       <h2>Did you know?</h2>
-      {
-        <p>{facts[0].fact}</p>
-      }
+      <section className="flex">
+        {
+          facts.map((f, index) => <Card fact={f.fact} index={index + 1} />)
+        }
+      </section>
     </main>
   );
 }

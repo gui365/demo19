@@ -18,8 +18,28 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .bold {
   font-weight: 700;
+}
+
+.home-main {
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(73, 73, 73), #fff);
+  height: 100%;
+}
+
+.home-welcome {
+  width: 30%;
+}
+
+#cat-image {
+  width: 40%;
+  transform: rotate(2deg);
+  box-shadow: 10px 20px 20px rgba(73, 73, 73, 0.5);
+  border-radius: 40px;
+  border: 30px solid #fff;
+  margin-left: 2rem;
 }

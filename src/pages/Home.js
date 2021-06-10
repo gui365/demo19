@@ -2,15 +2,14 @@ import React from "react";
 
 function Home() {
   return (
-    <main>
-      <h2>Home Page</h2>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <main className="home-main flex">
+      <div className="home-welcome">
+        <h2>Welcome</h2>
+        <p>Ask yourself: What is cuter than a cat wrapped in a sheet of paper?</p>
+        <p>Here at RoboCat we think the answer is <strong>"nothing can be cuter than that"</strong>!</p>
+        <p>If you're a cat lover, you're definitely in the right place. Now go explore, enjoy and don't forget to subscribe to our blog</p>
+      </div>
+      <img id="cat-image" alt="cat wrapped in paper" src="https://static.india.com/wp-content/uploads/2015/11/089.jpg?impolicy=Medium_Resize&w=1200&h=800" />
     </main>
   );
 }

@@ -20,7 +20,7 @@ function Header() {
     <header className='flex'>
       <div className='flex'>
         <img id='header-logo' src={`https://avatars.dicebear.com/api/gridy/${getRandomCode()}.svg`} />
-        <h1 id='header-title'>CatLife</h1>
+        <h1 id='header-title'>RoboCat</h1>
       </div>
       <NavTabs />
     </header>
