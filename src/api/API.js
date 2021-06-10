@@ -3,7 +3,7 @@ import * as mockBlogPosts from './mockBlogPosts';
 
 export default {
   getRandomCatFact: function () {
-    return axios.get("https://catfact.ninja/fact");
+    return axios.get("https://catfact.ninja/fact?max_length=185");
   },
   getCatFacts: function () {
     return axios.get("https://catfact.ninja/facts?limit=6");
