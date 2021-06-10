@@ -5,9 +5,7 @@ function Footer() {
 
   return (
     <footer className='flex'>
-      <div className='flex'>
-        <p id='footer-title'>Copyright 2021 RoboCat. All rights reserved. </p>
-      </div>
+      <p id='footer-title'>Copyright 2021 RoboCat. All rights reserved. </p>
     </footer>
   );
 }

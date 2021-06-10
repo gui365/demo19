@@ -5,8 +5,10 @@ footer {
   padding: 1rem 4rem;
   color: #fff;
   font-size: .7rem;
+  text-align: right ;
 }
 
 p {
   margin: 0;
+  width: 100%;
 }
