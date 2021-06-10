@@ -1,0 +1,17 @@
+ul {
+  margin: 0;
+}
+
+li {
+  padding: 0 .5rem;
+  list-style: none;
+}
+
+a {
+  font-family: 'Mate SC';
+  color: #fff;
+}
+
+a:hover {
+  color: yellow;
+}

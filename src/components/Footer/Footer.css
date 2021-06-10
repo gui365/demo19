@@ -1,0 +1,12 @@
+footer {
+  height: 3rem;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(34, 34, 34), rgb(61, 61, 61));
+  padding: 1rem 4rem;
+  color: #fff;
+  font-size: .7rem;
+}
+
+p {
+  margin: 0;
+}

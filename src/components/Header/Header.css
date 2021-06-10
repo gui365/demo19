@@ -1,0 +1,17 @@
+header {
+  height: 100px;
+  /* background-color: rgb(34, 34, 34); */
+  background: linear-gradient(to top, rgb(34, 34, 34), rgb(34, 34, 34), rgb(61, 61, 61));
+  padding: 1rem 4rem;
+}
+
+#header-logo {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+#header-title {
+  margin: 0;
+  color: #fff;
+  font-family: 'Mate SC', Verdana, Geneva, Tahoma, sans-serif;
+}
