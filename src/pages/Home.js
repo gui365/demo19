@@ -4,7 +4,7 @@ function Home() {
   return (
     <main className="home-main flex">
       <div className="home-welcome">
-        <h2>Welcome</h2>
+        <h2>Welcome!</h2>
         <p>Ask yourself: What is cuter than a cat wrapped in a sheet of paper?</p>
         <p>Here at RoboCat we think the answer is <strong>"nothing can be cuter than that"</strong>!</p>
         <p>If you're a cat lover, you're definitely in the right place. Now go explore, enjoy and don't forget to subscribe to our blog</p>

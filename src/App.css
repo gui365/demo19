@@ -5,13 +5,13 @@
 
 main {
   padding: 3rem 4rem;
+  margin-bottom: 3rem;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
-  /* width: 100%; */
 }
 
 .flex {
@@ -32,7 +32,10 @@ footer {
 }
 
 .home-welcome {
-  width: 30%;
+  width: 50%;
+  background-color: rgba(255, 255, 255, .2);
+  padding: 3rem;
+  border-radius: 5px;
 }
 
 #cat-image {
